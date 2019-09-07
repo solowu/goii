@@ -195,7 +195,7 @@ func (m *Goii) createContext(rw http.ResponseWriter, req *http.Request) *Context
 		Router:   m.Router,
 		Req:      Request{req},
 		Resp:     NewResponseWriter(req.Method, rw),
-		Render:   &DummyRender{nil},
+		Render:   &DummyRender{rw},
 		Data:     make(map[string]interface{}),
 	}
 	c.SetParent(m)
