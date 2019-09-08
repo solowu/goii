@@ -30,8 +30,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Unknwon/com"
 	"github.com/go-macaron/inject"
+	"github.com/unknwon/com"
 )
 
 // Locale reprents a localization interface.

@@ -26,7 +26,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Unknwon/com"
+	"github.com/unknwon/com"
 	"gopkg.in/ini.v1"
 
 	"github.com/go-macaron/inject"
